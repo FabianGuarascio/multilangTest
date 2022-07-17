@@ -4,6 +4,17 @@
   "newProjectRoot": "projects",
   "projects": {
     "languages": {
+      "i18n": {
+        "sourceLocale":"es",
+        "locales": {
+          "en":{
+            "translation":"src/locales/messages.en-US.xlf"
+          },
+          "pt":{
+            "translation":"src/locales/messages.pt-BR.xlf"
+          }
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {

@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'languages';
+  interpolacion:string=$localize`texto desde el ts`
 }
